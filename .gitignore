@@ -9,6 +9,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+landmarks-testing-1efdd002c993.json
 
 # macOS
 .DS_Store
