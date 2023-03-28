@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/core';
 const SignUpForm = ({ email, setEmail, password, setPassword, onBack }) => {
   const navigation = useNavigation();
 
-  
+
   const handleSignup = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredentials) => {
@@ -72,3 +72,8 @@ const styles = StyleSheet.create({
   });
   
   export default SignUpForm;
+
+
+
+
+

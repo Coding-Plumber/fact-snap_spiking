@@ -12,7 +12,7 @@ import { Camera } from "expo-camera";
 import React, { useState, useEffect } from "react";
 import LoginForm from "../Components/LoginForm";
 import SignUpForm from "../Components/SignUpForm";
-import { auth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '../firebase';
+
 
 const LoginScreen = () => {
   const [cameraPermission, setCameraPermission] = useState(false);
